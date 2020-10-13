@@ -1,0 +1,679 @@
+body {
+    flex-wrap: wrap;
+}
+
+.header {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 323px;
+    width: 100%;
+    background-color: grey;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.header-caption {
+    margin: 0;
+    padding: 0 0 50px 0;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.header-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-list-item {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    /* Text style for "P, ut on t" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    font-weight: normal;
+    padding: 0 0 10px 0;
+}
+
+.header-list-item:before {
+background-image: url(img/checkbox.png);
+content: '';
+width: 20px;
+height: 20px;
+background-size: cover;
+margin-right:10px;
+display: inline-block;
+}
+
+.header-img {
+    max-width: 469px;
+    max-height: 214px;
+    background-color: #fff;
+    display: block;
+    max-height: 100%;
+}
+
+.main-section {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 323px;
+    width: 100%;
+    background-color: white;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.main-caption {
+    margin: 0;
+    padding: 0;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    /* Text style for "A, bout yo" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.main-paragraph {
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "L, orem ip" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-img {
+    max-width: 430px;
+    max-height: 245px;
+    background-color: #fff; 
+    margin-left: 100px;
+    display: block;
+    max-height: 100%;
+}
+
+.dignity {
+    background-color: rgba(247, 235, 235, 0.973);
+    padding: 50px;
+    width: 100%;
+    max-width: 1280px;
+    min-height: 323px;
+    display: flex;
+    flex-direction: column;  
+}
+
+.dignity-header {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    /* Text style for "D, ignity" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto 30px auto;
+    padding: 0;
+}
+
+.dignity-lists-section {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+}
+
+.dignity-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dignity-item {
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "D, electus" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 35px;
+    display: inline-flex;
+    box-sizing: border-box;
+    max-width: 95%;
+    /*position: relative;*/
+    display: block;
+}
+
+.dignity-item:before {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/plus-icon.png);
+    content: '';
+    background-size: cover;
+    margin-right: 10px;
+    display: inline-block;
+    /*position: absolute;*/
+    vertical-align: middle;
+}
+
+.screenshots-section {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 323px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;  
+}
+
+.screenshots-caption {
+    color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "S, crinsho" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin: 0 auto;
+padding-bottom: 35px;
+}
+
+.screenshots-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.screenshot{
+    max-width: 200px;
+    max-height: 100px;
+    background-color: gray;
+    margin-right: 10px;
+}
+
+.screenshots-figure {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.screenshot-description {
+    color: #445161;
+font-family: "Arial MT";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+/* Text style for "T, he desc" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin: 0;
+padding: 0;
+}
+
+.screenshot-text {
+    color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "P, ariatur" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+max-width: 95%;
+}
+
+.reviews-section {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 323px;
+    width: 100%;
+    background-color: rgba(247, 235, 235, 0.973);
+    flex-direction: column;  
+}
+
+.reviews-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reviews-caption {
+    color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "R, eviews" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin: 0 auto;
+padding-bottom: 35px;
+}
+
+.reviews {
+    background-size: cover;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.review-box {
+  background-color: #E0E0E0;  
+}
+
+.reviews-figure {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    max-width: 95%;
+}
+
+.review-text {
+    color: #333333;
+font-family: "Arial - Italic MT";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 18px;
+text-align: left;
+/* Text style for "P, orro of" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.author {
+    color: #989898;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 18px;
+text-align: left;
+/* Text style for "Lourens S." */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.buy-it-now {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    max-width: 1280px;
+    min-height: 323px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;  
+}
+
+.buy-caption {
+    color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "B, uy it n" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+
+.buy-options {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.buy-option {
+    min-width: 300px;
+border: 1px solid gray;
+margin: 0;
+padding: 0;
+}
+
+.option-header {
+    background-color: gray;
+    min-height: 50px;
+}
+
+.option-caption {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.option-price {
+    background-color: white;
+    min-height: 70px;
+}
+
+.option-price-tag {
+    color: #445162;
+font-family: "Arial MT";
+font-size: 40px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+/* Text style for "$, 100" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+}
+
+.buy-bottom {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.option-feature-list {
+    list-style-type: decimal;
+}
+
+.option-feature-item {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "1, . Porro" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.buy-button {
+    border-radius: 5px;
+    min-height: 40px;
+}
+
+.footer-content {
+    background-color: gray;
+    padding-left: 250px;
+    padding-right: 250px;
+    max-width: 1280px;
+    min-height: 510px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-header {
+    color: #ffffff;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "C, ontacts" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+margin: 0 auto;
+padding-top: 55px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.input-form-input {
+    max-width: 500px;
+    min-height: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 10px;
+    color: #445162;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Y, our mes" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.textarea-form-input {
+    max-width: 500px;
+    min-height: 170px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #445162;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "Y, our mes" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.form-send-button {
+    max-width: 140px;
+    max-height: 40px;
+    margin: 0 auto;
+    color: #445162;
+font-family: "Arial - Bold MT";
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+text-transform: uppercase;
+/* Text style for "S, end" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+padding: 14px 48px;
+border-radius: 7px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.footer-contact-list {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-items {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    /* Text style for "2, 7967965" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.skype:before {
+    display: inline-block;
+    background-image: url(img/skype_icon.png);
+    background-size: cover;
+    content: "";
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.footer-contacts {
+    align-self: start;
+    width: 40%;
+    margin: 0;
+    padding-left: 50px;
+
+}
+
+.icq:before {
+    display: inline-block;
+    background-image: url(img/icq_icon.png);
+    background-size: cover;
+    content: "";
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.email:before {
+    display: inline-block;
+    background-image: url(img/email_icon.png);
+    background-size: cover;
+    content: "";
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.phone:before {
+    display: inline-block;
+    background-image: url(img/phone_icon.png);
+    background-size: cover;
+    content: "";
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.footer-social-list {
+    height: 42px;
+    width: 240px;
+    margin: 0;
+    padding: 0;
+}
