@@ -46,7 +46,6 @@ body {
     letter-spacing: normal;
     line-height: 36px;
     text-align: left;
-    /* Text style for "P, ut on t" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -55,13 +54,13 @@ body {
 }
 
 .header-list-item:before {
-background-image: url(../img/checkbox.png);
-content: '';
-width: 20px;
-height: 20px;
-background-size: cover;
-margin-right:10px;
-display: inline-block;
+    background-image: url(../img/checkbox.png);
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-right:10px;
+    display: inline-block;
 }
 
 .header-img {
@@ -95,7 +94,6 @@ display: inline-block;
     letter-spacing: normal;
     line-height: 36px;
     text-align: left;
-    /* Text style for "A, bout yo" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -111,7 +109,6 @@ display: inline-block;
     letter-spacing: normal;
     line-height: 24px;
     text-align: left;
-    /* Text style for "L, orem ip" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -148,7 +145,6 @@ display: inline-block;
     letter-spacing: normal;
     line-height: 36px;
     text-align: left;
-    /* Text style for "D, ignity" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -170,9 +166,7 @@ display: inline-block;
     flex-direction: column;
 }
 
-.dignity-item {
-
-}
+.dignity-item {}
 
 .dignity-item-text {
     color: #333333;
@@ -182,8 +176,6 @@ display: inline-block;
     font-style: normal;
     letter-spacing: normal;
     line-height: 24px;
-    /*text-align: left;
-    /* Text style for "D, electus" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -203,9 +195,9 @@ display: inline-block;
     display: block;
     position: absolute;
     top: 0;
-  width: 32px;
-  height: 32px;
-  left: 5px;
+    width: 32px;
+    height: 32px;
+    left: 5px;
 }
 
 .screenshots-section {
@@ -221,19 +213,18 @@ display: inline-block;
 
 .screenshots-caption {
     color: #445161;
-font-family: "Arial MT";
-font-size: 30px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 36px;
-text-align: left;
-/* Text style for "S, crinsho" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin: 0 auto;
-padding-bottom: 35px;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+    padding-bottom: 35px;
 }
 
 .screenshots-wrap {
@@ -257,35 +248,33 @@ padding-bottom: 35px;
 
 .screenshot-description {
     color: #445161;
-font-family: "Arial MT";
-font-size: 24px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 30px;
-text-align: left;
-/* Text style for "T, he desc" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin: 0;
-padding: 0;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
 }
 
 .screenshot-text {
     color: #333333;
-font-family: "Arial MT";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-/* Text style for "P, ariatur" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-max-width: 95%;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    max-width: 95%;
 }
 
 .reviews-section {
@@ -307,44 +296,43 @@ max-width: 95%;
 
 .reviews-caption {
     color: #445161;
-font-family: "Arial MT";
-font-size: 30px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 36px;
-text-align: left;
-/* Text style for "R, eviews" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin: 0 auto;
-padding-bottom: 35px;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+    padding-bottom: 35px;
 }
 
 .reviews {
     background-size: cover;
-  height: 75px;
-  width: 75px;
-  border-radius: 50%;
-  margin-right: 16px;
-  display: inline-block;
-  vertical-align: middle;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 16px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .review-box {
-  background-color: #E0E0E0; 
-  position: relative; 
-  margin-left: 15px;
+    background-color: #E0E0E0; 
+    position: relative; 
+    margin-left: 15px;
 }
 
 .review-box:before {
     content: "";
-  border: 15px solid transparent;	
-  border-right: 15px solid #E0E0E0;
-  position: absolute;
-  top: 20px;
-  left: -30px;
+    border: 15px solid transparent;	
+    border-right: 15px solid #E0E0E0;
+    position: absolute;
+    top: 20px;
+    left: -30px;
 }
 
 .reviews-figure {
@@ -356,32 +344,30 @@ padding-bottom: 35px;
 
 .review-text {
     color: #333333;
-font-family: "Arial - Italic MT";
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 18px;
-text-align: left;
-/* Text style for "P, orro of" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .author {
     color: #989898;
-font-family: "Arial MT";
-font-size: 14px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 18px;
-text-align: left;
-/* Text style for "Lourens S." */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .buy-it-now {
@@ -397,19 +383,18 @@ line-height: normal;
 
 .buy-caption {
     color: #445161;
-font-family: "Arial MT";
-font-size: 30px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 36px;
-text-align: left;
-/* Text style for "B, uy it n" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin: 0 auto;
-padding-bottom: 30px;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 .buy-options {
@@ -423,9 +408,9 @@ padding-bottom: 30px;
 
 .buy-option {
     min-width: 300px;
-border: 1px solid #445161;
-margin: 0;
-padding: 0;
+    border: 1px solid #445161;
+    margin: 0;
+    padding: 0;
 }
 
 .option-header {
@@ -459,21 +444,20 @@ padding: 0;
 
 .option-price-tag {
     color: #445162;
-font-family: "Arial MT";
-font-size: 40px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 30px;
-text-align: left;
-/* Text style for "$, 100" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-text-align: center;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
 }
 
-.buy-bottom {
+.buy-main {
     background-color: #445161;
     display: flex;
     flex-direction: column;
@@ -493,7 +477,6 @@ text-align: center;
     letter-spacing: normal;
     line-height: 24px;
     text-align: left;
-    /* Text style for "1, . Porro" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -502,41 +485,38 @@ text-align: center;
 .buy-button {
     border-radius: 5px;
     min-height: 40px;
+    text-transform: uppercase;
 }
 
 .footer-content {
     padding: 50px;
-    
     display: flex;
     flex-direction: column;
     max-width: 1280px;
     min-height: 510px;
-    
     background-color: #445161;
-
 }
 
 .footer-header {
     color: #ffffff;
-font-family: "Arial MT";
-font-size: 30px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 36px;
-text-align: left;
-/* Text style for "C, ontacts" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-margin: 0 auto;
-padding-top: 55px;
-padding-bottom: 30px;
-text-align: center;
-margin: 0 250px;
+    font-size: 30px;
+    font-family: "Arial MT";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0 250px;
 }
 
-.footer-bottom {
+.footer-main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -557,17 +537,16 @@ margin: 0 250px;
     border: none;
     padding-left: 10px;
     color: #445162;
-font-family: "Arial MT";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-/* Text style for "Y, our mes" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .textarea-form-input {
@@ -579,17 +558,16 @@ line-height: normal;
     padding-left: 10px;
     padding-top: 10px;
     color: #445162;
-font-family: "Arial MT";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-/* Text style for "Y, our mes" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .form-send-button {
@@ -597,20 +575,19 @@ line-height: normal;
     max-height: 40px;
     margin: 0 auto;
     color: #445162;
-font-family: "Arial - Bold MT";
-font-size: 16px;
-font-weight: 400;
-font-style: normal;
-letter-spacing: normal;
-line-height: 24px;
-text-align: left;
-text-transform: uppercase;
-/* Text style for "S, end" */
-font-style: normal;
-letter-spacing: normal;
-line-height: normal;
-padding: 14px 48px;
-border-radius: 7px;
+    font-family: "Arial - Bold MT";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 14px 48px;
+    border-radius: 7px;
     border: none;
     margin-bottom: 50px;
 }
@@ -631,7 +608,6 @@ border-radius: 7px;
     letter-spacing: normal;
     line-height: 24px;
     text-align: left;
-    /* Text style for "2, 7967965" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -656,8 +632,6 @@ border-radius: 7px;
     width: 40%;
     margin: 0;
     padding-left: 50px;
-   
-
 }
 
 .icq:before {
