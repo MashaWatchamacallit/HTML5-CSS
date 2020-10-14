@@ -55,7 +55,7 @@ body {
 }
 
 .header-list-item:before {
-background-image: url(img/checkbox.png);
+background-image: url(/img/checkbox.png);
 content: '';
 width: 20px;
 height: 20px;
@@ -196,7 +196,7 @@ display: inline-block;
 }
 
 .dignity-item-text:before {    
-    background-image: url(img/plus-icon.png);
+    background-image: url(/img/plus-icon.png);
     content: "";
     background-size: cover;
     margin-right: 10px;
@@ -641,7 +641,7 @@ border-radius: 7px;
 
 .skype:before {
     display: inline-block;
-    background-image: url(img/skype_icon.png);
+    background-image: url(/img/skype_icon.png);
     background-size: cover;
     content: "";
     z-index: 1;
@@ -662,7 +662,7 @@ border-radius: 7px;
 
 .icq:before {
     display: inline-block;
-    background-image: url(img/icq_icon.png);
+    background-image: url(/img/icq_icon.png);
     background-size: cover;
     content: "";
     z-index: 1;
@@ -674,7 +674,7 @@ border-radius: 7px;
 
 .email:before {
     display: inline-block;
-    background-image: url(img/email_icon.png);
+    background-image: url(/img/email_icon.png);
     background-size: cover;
     content: "";
     z-index: 1;
@@ -686,7 +686,7 @@ border-radius: 7px;
 
 .phone:before {
     display: inline-block;
-    background-image: url(img/phone_icon.png);
+    background-image: url(/img/phone_icon.png);
     background-size: cover;
     content: "";
     z-index: 1;
