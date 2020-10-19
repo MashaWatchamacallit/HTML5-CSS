@@ -1,5 +1,6 @@
 body {
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .header {
@@ -156,6 +157,7 @@ body {
     display: flex;
     flex-direction: row;  
     justify-content: space-between;
+    width: 100%;
 }
 
 .dignity-list {
@@ -163,10 +165,13 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.dignity-item {}
+.dignity-item {
+    width: 50%;
+}
 
 .dignity-item-text {
     color: #333333;
@@ -231,6 +236,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .screenshot{
@@ -244,6 +250,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
+    width: 50%;
 }
 
 .screenshot-description {
@@ -292,6 +299,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .reviews-caption {
@@ -339,7 +347,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    max-width: 95%;
+    width: 48%;
+    margin-right: 25px;
 }
 
 .review-text {
@@ -590,6 +599,7 @@ body {
     border-radius: 7px;
     border: none;
     margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .footer-contact-list {
